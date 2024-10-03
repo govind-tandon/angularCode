@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+
+<!-- <input type="text" #box (keyup)="getValue(box.value)" placeholder="Enter name" name="name"> -->
+ <input type="text"
+ #box
+ placeholder = "Enter name"
+ name="name">
+
+ <!-- the keyup function comes in button, from input line -->
+<button (click)="getValue(box.value)">click</button>
+<p>
+    <!-- Box value is : {{box.value}} -->
+    box value is : {{displayVal}}
+</p>
