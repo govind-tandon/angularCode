@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+
+<h3 *ngFor="let item of users">Name is: <span style="color:rgb(96, 0, 192)">{{item}}</span></h3>
+
+<h4 *ngFor="let customer of customerDetails">Name is :<span style="color: rgb(20, 176, 59);">{{customer.name}}</span>
+      and his email id is <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: red;">{{customer.email}}.
+
+        <br>
+      </span> If you are having any query then kindly contact to <span style="color: cadetblue; font-weight: bold;">{{customer.mobileNumber}}</span> this number.</h4>
