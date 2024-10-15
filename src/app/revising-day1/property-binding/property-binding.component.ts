@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./property-binding.component.css']
 })
 export class PropertyBindingComponent {
-  title = "Day 5, 7th october :-";
-  name = "Govind Tandon";
-  // disabled = true;
-  disable = false;
+  title = "Topic: Property binding";
+  name="Govind Tandon";
+  disable=false;
 }

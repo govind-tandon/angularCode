@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GetInputValueComponent } from './get-input-value.component';
+import { MultipleIfElseComponent } from './multiple-if-else.component';
 
-describe('GetInputValueComponent', () => {
-  let component: GetInputValueComponent;
-  let fixture: ComponentFixture<GetInputValueComponent>;
+describe('MultipleIfElseComponent', () => {
+  let component: MultipleIfElseComponent;
+  let fixture: ComponentFixture<MultipleIfElseComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GetInputValueComponent ]
+      declarations: [ MultipleIfElseComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GetInputValueComponent);
+    fixture = TestBed.createComponent(MultipleIfElseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

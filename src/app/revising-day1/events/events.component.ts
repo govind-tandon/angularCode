@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './events.component.html',
   styleUrls: ['./events.component.css']
 })
-export class EventsComponent  {
-    title = "Day5, 3october. Topic:-Events";
-    getData(val:string){
-      console.warn(val);
-    }
+export class EventsComponent {
+  title = 'topic :events';
+
+  getData(value:string){
+    console.warn("Function called:", value);
+  }
 }

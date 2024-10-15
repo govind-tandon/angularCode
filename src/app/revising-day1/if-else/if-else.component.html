@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<!-- approach 1 
+<h1 *ngIf="show else elseBlock">
+    It runes when <span style="color: rebeccapurple;"> <br> show=true</span>,<br>Today is 2nd day of programing
+</h1>
+
+<ng-template #elseBlock>
+    <h4>it runs when</h4>
+    <h1> show=false</h1>
+    <h4>it comes under else block</h4>
+</ng-template>
+-->
+
+<h1 *ngIf="show=='accha'; then ifBlock else elseBlock">Govind</h1>
+<ng-template #ifBlock>
+    <h1>It comes under if stmnt,<span style="color: blueviolet;">show=true</span></h1>
+</ng-template>
+
+<ng-template #elseBlock>
+    <h1>It comes under else stmnt, <span style="color:blue;">show=false</span></h1>
+</ng-template>

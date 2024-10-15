@@ -5,15 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './if-else.component.html',
   styleUrls: ['./if-else.component.css']
 })
-export class IfElseComponent{
-
-  /*
-  title = "If else";
+export class IfElseComponent {
+  title = "Topic: If-else";
   // show = true;
-  show = false;
-  */
-
-  // multiple if-else :-
-  title = "Multiple -if-else"
-  color = "brown";
+  // show=false;
+  show = "accha"
 }

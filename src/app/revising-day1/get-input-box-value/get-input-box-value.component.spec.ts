@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NestedLoopComponent } from './nested-loop.component';
+import { GetInputBoxValueComponent } from './get-input-box-value.component';
 
-describe('NestedLoopComponent', () => {
-  let component: NestedLoopComponent;
-  let fixture: ComponentFixture<NestedLoopComponent>;
+describe('GetInputBoxValueComponent', () => {
+  let component: GetInputBoxValueComponent;
+  let fixture: ComponentFixture<GetInputBoxValueComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NestedLoopComponent ]
+      declarations: [ GetInputBoxValueComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NestedLoopComponent);
+    fixture = TestBed.createComponent(GetInputBoxValueComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
