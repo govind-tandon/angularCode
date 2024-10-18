@@ -7,6 +7,11 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { IfElseComponent } from './if-else/if-else.component';
 import { TrialComponent } from './trial/trial.component';
 import { MultipleIfElseComponent } from './multiple-if-else/multiple-if-else.component';
+import { SwitchComponent } from './switch/switch.component';
+import { ForLoopComponent } from './for-loop/for-loop.component';
+import { NestedLoopComponent } from './nested-loop/nested-loop.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { MultipleIfElseComponent } from './multiple-if-else/multiple-if-else.com
     PropertyBindingComponent,
     IfElseComponent,
     TrialComponent,
-    MultipleIfElseComponent
+    MultipleIfElseComponent,
+    SwitchComponent,
+    ForLoopComponent,
+    NestedLoopComponent,
+    StyleBindingComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule
@@ -30,6 +40,11 @@ import { MultipleIfElseComponent } from './multiple-if-else/multiple-if-else.com
     IfElseComponent,
     TrialComponent,
     MultipleIfElseComponent,
+    SwitchComponent,
+    ForLoopComponent,
+    NestedLoopComponent,
+    StyleBindingComponent,
+    HeaderComponent,
   ]
 })
 export class RevisingDay1Module { }

@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./switch.component.css']
 })
 export class SwitchComponent{
-title = "Switch Statement";
-color="pink";
+  title = "Topic: switch case";
+  color = "orange";
 }

@@ -1,4 +1,3 @@
-import { style } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./style-binding.component.css']
 })
 export class StyleBindingComponent{
-  title = "Day7, 8th october, topic: style binding";
+  title = "Topic: style-binding";
   color="white";
   bgColor="black";
 
   updateColor(){
-    this.color="red";
+    this.color="pink";
+    this.bgColor="black"
   }
 }
